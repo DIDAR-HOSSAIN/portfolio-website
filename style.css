@@ -1,0 +1,50 @@
+/* font-family: 'Merriweather', serif; */
+
+body{
+margin: 0%;
+}
+
+.clr{
+    color: orange;  
+}
+
+h1{
+    color: blue;
+    font-size: 40px;
+ 
+}
+
+
+.firstSecMainDiv{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.firstSecDiv{
+width: 50%;
+padding-left: 5%;
+}
+
+/* .firstSecDiv{
+    width: 40%;
+    margin-top: 0px;
+} */
+.firstSecDiv img{
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.secondSecMainDiv{
+    display: flex;
+}
+
