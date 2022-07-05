@@ -15,7 +15,7 @@ h1{
 }
 
 
-.firstSecMainDiv{
+.firstSection{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -24,15 +24,13 @@ h1{
 
 .firstSecDiv{
 width: 50%;
-padding-left: 5%;
+padding: 5%;
+text-align: justify;
+font-size: 20px;
 }
 
-/* .firstSecDiv{
-    width: 40%;
-    margin-top: 0px;
-} */
 .firstSecDiv img{
-    width: 80%;
+    width: 70%;
 }
 
 .link-button{
@@ -44,7 +42,47 @@ padding-left: 5%;
     border-radius: 10px;
 }
 
-.secondSecMainDiv{
+.secondSection{
     display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.thirdSection{
+    margin-left: 0px;
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+.expArea{
+    box-shadow: 20px 20px 20px 20px gray;
+    font-size: 25px;
+    width: 40%;
+    padding: 20px;
+    margin: 30px;
+    margin-left:80px;
+    border-radius: 15px;
+}
+
+#lftBorder{
+    border-left: solid 10px blue;
+}
+
+#rtBorder{
+    border-left: solid 10px orange;
+}
+
+
+.centerSide{
+    text-align: center;
+}
+    
+    
+
 }
 
